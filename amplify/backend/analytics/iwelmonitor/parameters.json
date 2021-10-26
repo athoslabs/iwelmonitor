@@ -1,0 +1,21 @@
+{
+    "appName": "iwelmonitor",
+    "roleName": "pinpointLambdaRoledab4adc4",
+    "cloudformationPolicyName": "cloudformationPolicydab4adc4",
+    "cloudWatchPolicyName": "cloudWatchPolicydab4adc4",
+    "pinpointPolicyName": "pinpointPolicydab4adc4",
+    "authPolicyName": "pinpoint_amplify_dab4adc4",
+    "unauthPolicyName": "pinpoint_amplify_dab4adc4",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

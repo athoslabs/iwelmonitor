@@ -1,0 +1,49 @@
+type DeviceReading @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID!
+  glucoseNumber: Int!
+  timeTaken: String!
+}
+
+type LongActingInsEvent @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID!
+  insulinValue: String!
+  date: String!
+  time: String!
+}
+
+type FastActingInsEvent @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID!
+  insulinValue: String!
+  date: String!
+  time: String!
+}
+
+type CarbEvent @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID!
+  carbAmount: String!
+  carbDescription: String!
+  date: String!
+  time: String!
+}
+
+type BloodPressureEvent @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID!
+  topNumber: String!
+  bottomNumber: String!
+  date: String!
+  time: String!
+}
+
+type ExerciseEvent @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID!
+  intensity: String!
+  duration: String!
+  description: String!
+}
+ 

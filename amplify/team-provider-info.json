@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-iwelmonitor-dev-111919-authRole",
+      "UnauthRoleArn": "arn:aws:iam::686674740388:role/amplify-iwelmonitor-dev-111919-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::686674740388:role/amplify-iwelmonitor-dev-111919-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-iwelmonitor-dev-111919-deployment",
+      "UnauthRoleName": "amplify-iwelmonitor-dev-111919-unauthRole",
+      "StackName": "amplify-iwelmonitor-dev-111919",
+      "StackId": "arn:aws:cloudformation:us-east-1:686674740388:stack/amplify-iwelmonitor-dev-111919/a7393200-09a5-11ec-bfe4-0a0faac5843d",
+      "AmplifyAppId": "d2mgg6qxiigrh2"
+    },
+    "categories": {
+      "auth": {
+        "iwelmonitor9542c54a": {}
+      }
+    }
+  }
+}
